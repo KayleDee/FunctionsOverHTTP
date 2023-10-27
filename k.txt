@@ -1,0 +1,7 @@
+Hey You: Your app should respond with Hey, <name>! when a request is made to /hey/<name>. For example, 
+a request to /hey/bcca should respond with Hey, BCCA!.
+How Old: Your app should respond with 
+a user's age in some provided end year when a request is made to /age-in/<end>/<birthyear>. For example /age-in/2050/2000 should respond with 50. Your path should appropriately indicate that the end and birthyear path arguments are integers.
+Can I Take Your Order: Your app should respond with an order total for 
+a provided number of hamburgers, fries, and drinks when a request is made to /order-total/<burgers>/<fries>/<drinks>. 
+Burgers are $4.50. Fries are $1.5. Drinks are $1. Your path should appropriately indicate that the burgers, fries, and drinks path arguments are integers.
